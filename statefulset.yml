@@ -7,11 +7,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: app-database
+      app: dbbankapp
   template:
     metadata:
       labels:
-        app: app-database
+        app: dbbankapp
     spec:
       containers:
       - name: nginx
